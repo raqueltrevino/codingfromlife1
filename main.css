@@ -1,0 +1,202 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table {
+  position: absolute;
+  bottom:0;
+  width: 1000px;
+  height: 145px;
+  background-color:#ffdc83;
+ }
+
+ .pumpkin {
+  position: absolute;
+  bottom:33px;
+  left:715px;
+  width:279px;
+  height:246px;
+  border: 6px;
+  background:linear-gradient(to bottom, #FF8C00, #8B4513);
+  border-radius:132px;
+  z-index:1;
+  }
+
+.pumpkin-middle {
+  position: absolute;
+  bottom:37px;
+  left:380px;
+  width:293px;
+  height:142px;
+  border: 0px;
+  background:linear-gradient(to bottom, #daa520, #8B4513);
+  border-radius: 100px;
+  transform: rotate(-12deg);
+  z-index:1; 
+}
+
+.pumpkin-back {
+  position: absolute;
+  bottom:98px;
+  left:497px;
+  width:200px;
+  height:159px;
+  border: 6px;
+  background:linear-gradient(to bottom, #daa520, #ffdc83);
+  border-radius:132px;
+  z-index:1;
+}
+
+
+.candle {
+	position: absolute;
+	bottom:98px; 
+	left:327px;
+	width:29px; 
+	height:200px;
+	border:0px;
+	background:linear-gradient(to right, #8B4513, #DAA520, #8B4513);
+	border-radius:100px;
+	z-index:1;
+}
+
+.candle-two {
+	position:absolute;
+	bottom:217px;
+	left:745px;
+	width:29px;
+	height:200px;
+	background:linear-gradient(to right, #8B4513, #DAA520, #8B4513);
+	border-radius:100px;
+	z-index:1; 
+}
+
+.middle {
+	position: absolute;
+	bottom:267px;
+	left:323px;
+	width:39px;
+	height:68px;
+	border:0px;
+	background:linear-gradient(to right, #8B4513, #DAA520, #8B4513);
+	border-radius:100px;
+	z-index:1;
+}
+
+.middle-three {
+	position: absolute;
+	bottom:410px;
+     left:742px;
+     width:35px;
+     height:92px;
+     border:0px;
+     background-color:#eee8aa;
+     border-radius:100px;
+     z-index:1;	
+}
+
+.middle-four {
+	position: absolute;
+	bottom:366px;
+	left:740px;
+	width:39px;
+	height:68px;
+	border:0px;
+	background:linear-gradient(to right, #8B4513, #DAA520, #8B4513);
+	border-radius:100px;
+	z-index:1;
+}
+
+
+
+.top {
+     position: absolute;
+     bottom:305px;
+     left:325px;
+     width:35px;
+     height:92px;
+     border:0px;
+     background-color:#eee8aa;
+     border-radius:100px;
+     z-index:1;
+}
+
+.pot {
+   position:absolute;
+   bottom:114px;
+   left:30px;
+   width:273px;
+   height:234px;
+   border:0px;
+   background:linear-gradient(to bottom, #ec9556, #1b120b);
+   border-radius:100px;
+   z-index:1;
+}
+
+.vase {
+  position: absolute;
+  bottom:231px;
+  left:481px; 
+  width:130px;
+  height:369px;
+  border:0px;
+  background-color:#2e8b57;
+  z-index:1;
+ }
+
+ .base {
+   border-bottom: 35px solid #08582b;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   content: "";
+   height: 104px;
+   left: 480px;
+   position: absolute;
+   top: 368px;
+   width: 33px;
+   z-index:1;
+   transform: rotate(180deg);
+}
+
+.base-two {
+  border-bottom: 35px solid #2e8b57;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   content: "";
+   height: 104px;
+   left: 483px;
+   position: absolute;
+   top: 298px;
+   width: 30px;
+   z-index:1;
+   transform: rotate(0deg);
+}
+
+
+	
+ 
+
+
+
+
+
+
+
+
